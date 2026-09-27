@@ -1,0 +1,40 @@
+* { 
+marin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+background-color: #2c3e50;
+}
+
+.navbar {
+max-widht: 1200px;
+height: 70px;
+margin: auto;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center
+
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+list-style: none;
+
+}
+
+.nav-links a {
+colori: #ecf0f1;
+text-decoratuon: nome;
+font-size: 16px;
+transition: colori 0.3s ease;
+}
+
+
+
+.nav-links a:houver {
+colori: #3498db;
+}
